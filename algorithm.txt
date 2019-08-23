@@ -1,0 +1,30 @@
+Harmanjot Singh
+Professor Andrew Harris
+Computing II
+13 September 2018
+
+				Horse Race Algorithm
+
+•Goals - The main goal of this program is to stimulate a horse race among five horses where only one horse will be the winner in the end.  
+
+•Input - There is specially no input from the user for this program. The program will automatically generate tracks and horses to the console. However, user have to interact with the program by pressing ENTER in order for the race to continue. 
+
+•Output - The end output of this program is to display a winner horse to the screen. The progression of the race will also be displayed as it continues.
+
+•Steps - Placement function():
+	1.Generate a random number between 0 and 1 and assign it to a variable name position.
+	2.Declare another variable for counting in for/while loop.
+	3.Make a for loop for printing horse positions.
+	4.Return the position variable.
+
+Main function():
+	1.Declare four new variables for position tracking of each horse.
+	2.Also declare two new variables for horse name and its number
+	3.Use the srand() function for a new random number.
+	4.Make a for loop which will track the horse number and its position.
+	5.Declare a new array which will hold the final position of each horse.
+	6.Make a another for loop for deciding the winner horse.
+	7.Use switch statements for deciding and printing the winner horse number.
+	8.Finally, display the one winner horse to the screen.
+  
+  
